@@ -1,0 +1,108 @@
+/* Modal container */
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 400px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+  
+  /* Modal title */
+  .modalContainer .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Close button */
+  .titleCloseBtn button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s ease;
+  }
+  
+  .titleCloseBtn button:hover {
+    color: #555;
+  }
+  
+  /* Form fields */
+  .modalContainer .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .modalContainer .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modalContainer .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .modalContainer .form-control:focus {
+    outline: none;
+    border-color: cornflowerblue;
+  }
+  
+  /* Buttons */
+  .modalContainer .footer {
+    text-align: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modalContainer .footer button:hover {
+    background-color: #357ebd;
+  }
+  
+  /* Cancel button */
+  #cancelBtn {
+    background-color: crimson;
+  }
+  
+  #cancelBtn:hover {
+    background-color: #d9534f;
+  }
+
+  #txtPasswordHash{
+    margin-top: 10px;
+  }
+  #txtEmail{
+    margin-top: 10px;
+  }
+
+  .labelx{
+    padding: 10px;
+  }
+  
+  
